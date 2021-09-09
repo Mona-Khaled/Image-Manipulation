@@ -1,0 +1,381 @@
+*{
+    box-sizing: border-box;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* start of navbar */
+.custom-nav{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding:.5rem 0rem;
+    z-index: 9999;
+    transition: all .5s ease-in;
+
+}
+.custom-nav .navbar > a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.custom-nav .navbar > a span ,.welcome-caption h2 span{
+    color: tomato;
+}
+.custom-nav::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    color: white;
+    opacity: .1;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+.navbar-collapse .navbar-nav .nav-item >a{
+    color: white;
+    font-size: 18px;
+    opacity: .9;
+    font-weight: 500;
+    transition: color .4s;
+}
+
+.navbar-collapse .navbar-nav .nav-item >a:hover{
+    color: tomato !important;
+}
+
+/* end of navbar */
+
+/* start of Header */
+#header{
+    background-image: url(../img/header/1.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.header-caption .caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.header-caption {
+    height: 100%;
+    text-align: center;
+}
+.header-caption .caption > h1{
+    color: white ;
+    opacity: .9;
+    font-size:50px;
+    font-weight: bold;
+    
+}
+.header-caption .caption> span{
+    color: tomato;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 10px;
+}
+.header-caption .caption p{
+    color: white;
+    opacity: .9;
+    width: 30%;
+    font-size: 18px;
+    padding:20px 0px;
+}
+
+.btn-outline-light:hover{
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+}
+.btn-outline-light:focus{
+    background-color: tomato !important;
+    color: white !important;
+}
+/* end of header */
+
+
+/* welcome */
+.welcome-image img{
+    width: 100%;
+}
+.btn-light{
+    background-color: tomato;
+    color: white;
+}
+.btn-light:hover{
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+}
+
+.welcome-caption h2{
+    padding: 1.2rem 0rem;
+    color: black;
+    opacity: .9;
+    font-size: 30px;
+    font-weight: 700;
+}
+.welcome-caption p{
+    
+    
+    font-family: "Poppins", sans-serif;
+    color: #6b6b6b;
+    font-weight: 500;
+}
+/* end of welcome */
+
+/* btn up */
+.btn-up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index:9999999;
+}
+.btn-up a i {
+    color: white !important;
+}
+/* end of btn up */
+
+
+
+
+
+
+
+
+/*     background: linear-gradient(to right, #eb3c5a, #f67831);  */
+
+
+/* contact us */
+.contact-us{
+    padding:5rem 0rem;
+}
+.contact-us .container >h2{
+    text-align:center;
+    font-weight: 600;
+    font-size: 36px;
+}
+.contact-us label{
+    font-weight: 500;
+}
+.btn-light:focus {
+    background-color: tomato !important;
+    color: white !important;
+}
+/* end contact us */
+
+/* footer */
+.footer-section{
+    background: #111111;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.footer-caption >h5{
+    color:#eb3c5a;
+    font-size: 18px;
+}
+.footer-caption >p{
+    color: #fff;
+    font-weight: 600;
+}
+.footer-img{
+    background-image: url(../img/footer/1.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+
+}
+
+.footer-img-caption{
+    
+    padding: 0px 50px;
+    /* background-color: tomato; */
+    
+}
+.footer-caption-left{
+    /* background-color: #09c; */
+    height: 100%;
+
+}
+.footer-caption-left>h5, .footer-caption-left>h6{
+    color:white;
+}
+.footer-caption-left>h5{
+    font-weight: 600;
+}
+.footer-caption-left>h6{
+    font-weight: 400;
+    font-size:16px ;
+}
+.footer-caption-right{
+ 
+    height: 100%;
+    width: 100%;
+    /* background-color: teal; */
+}
+.footer-caption-right>input{
+    width:79%;
+    height: 48px;
+    font-size: 14px;
+    color: #bdbdbd;
+    border: 1px solid #ffffff;
+    padding-left: 22px ;
+    border-radius: 0px;
+    border: none;
+    display: inline-block;
+    margin: 0px;
+}
+.footer-caption-right >button{
+    background: linear-gradient(to right, #eb3c5a, #f67831);
+    color: white;
+    width: 20%;
+    padding: 12px 20px;
+    
+    border: 0px;
+    margin-left: -2px;
+    border-radius: 0px;
+    
+}
+.footer-caption-right >button:hover{
+    color: white;
+}
+.footer-copy-right >p,.terms >p, .policy>p{
+    color:white;
+    font-weight: 600;
+    
+}
+.footer-copy-right >p{
+    padding-right: 18px;
+}
+.social-media >a> i{
+    color:#fff;
+    padding-right: 15px;
+    padding: 10px 15px 10px 0px;
+    cursor: pointer;
+    transition: color .4s;
+}
+.social-media >a> i:hover{
+    color: #f15d44;
+}
+/* end footer */
+
+
+
+/* Media */
+@media (max-width: 991px) and (min-width: 200px)
+{
+    .custom-nav
+    {
+        background-color: rgba(255, 255, 255, 1) !important;
+    }
+    .fa-bars{
+     color: black;
+    }
+    .custom-nav .navbar > a,.navbar-collapse .navbar-nav .nav-item >a{
+        color: black !important;
+    }
+    .nav-item{
+        padding: 0px;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    .header-caption .caption p {
+        width: 80%;
+        font-size: 14px;
+    }
+ 
+}
+
+
+
+/* End Media */
+
+/* Start of Color Box */
+.colors-box
+{
+    position: fixed;
+    top: 100px;
+    text-align: center;
+    padding: 10px 0px;
+    left: -200px;
+    z-index: 10;
+}
+
+.colors-option{
+    padding:15px;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+}
+.colors-option h4{
+   font-size: 18px;
+   font-weight: 300;
+   text-transform: capitalize;
+}
+.colors-option ul{
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.colors-option ul li{
+    
+    list-style: none;
+    width: 30%; 
+    margin: 0px 0px 15px 0px;
+    
+}
+.color1,.color2,.color3,.color4,.color5,.color6{
+    width: 30px;
+    height: 40px;
+    border-radius: 30px 30px 0;
+    cursor: pointer;
+}
+.color1{
+    background-color: rgb(230, 95, 120);
+}
+.color2{
+    background-color: rgb(55, 184, 223);
+}
+.color4{
+    background-color: rgb(93, 105, 246);
+}
+.color3{
+    background-color: rgb(49, 177, 100);
+}
+.color5{
+    background-color: rgb(135, 206, 235);
+}
+.color6{
+    background-color: rgb(242, 179, 26);
+}
+.inner{
+    background-color: #2b2424;
+    padding:10px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    
+}
+.fa-cog{
+    color: white;
+    font-size: 24px;
+ 
+}
+/* End of Color Box */
