@@ -4,10 +4,9 @@ Many works have shown the potential of Generative Adversarial Networks (GANs)
 to deal with tasks such as text or audio to image synthesis.
 
 ## Conditional GAN Architecture
-
+![conditional gan arch](https://user-images.githubusercontent.com/53131422/132605384-870fd71a-13c3-4cc6-91cb-308ad54884c5.jpg)
 ## CycleGAN Architecture
-image
-
+![image](https://user-images.githubusercontent.com/53131422/132605405-6b64e02d-a764-4e75-82fa-011650bc869c.png)
 ## Requirements
 * pytorch
 * h5py
@@ -16,10 +15,10 @@ image
 * matplotlib
 
 ## Datasets Description
-### Speech2Face
+#### Speech2Face
 * Fbank: 149,354 voice recordings
 * VGG_ALL_FRONTAL (Actual Faces): 139,572 face images
-### Age Progression
+#### Age Progression
 * UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old).
 The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity.
 The images cover large variation in pose, facial expression, illumination, occlusion, resolution,
