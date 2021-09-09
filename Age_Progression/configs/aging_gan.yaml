@@ -1,0 +1,25 @@
+# Data configs
+domainA_dir: 'D:\Fast-AgingGAN-master\output_directoryUTK\trainA-50'
+domainB_dir: 'D:\Fast-AgingGAN-master\output_directoryUTK\trainB-50'
+
+# Network Configs
+ngf: 32   #number of filters in 1st layer in generator
+ndf: 32
+n_blocks: 9
+
+# Loss configs:
+adv_weight: 2
+cycle_weight: 10
+identity_weight: 7
+
+# Optimizer configs:
+lr: 0.0001
+weight_decay: 0.0001
+
+# Training configs:
+img_size: 256
+batch_size: 3
+num_workers: 4
+epochs: 5
+gpus: 0
+
