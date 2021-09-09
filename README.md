@@ -25,8 +25,9 @@ to deal with tasks such as text or audio to image synthesis.
 The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity.
 The images cover large variation in pose, facial expression, illumination, occlusion, resolution,
 etc.
+
 ## References
-1- J.-Y. Z. T. Park∗, "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks," 24 Aug 2020. 
-2- H. Y. D. H. Y. W. A. K. Jain2, "Learning Face Age Progression: A Pyramid Architecture of GANs," 1 Jan 2018. 
-3- W. S. R. Liu, "Learning Residual Images for Face Attribute Manipulation," 12 Apr 2017. 
-4- T.-H. O. T. D. C. K. I. Mosseri, "Speech2Face: Learning the Face Behind a Voice," 23 May 2019. 
+1. J.-Y. Z. T. Park∗, "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks," 24 Aug 2020. 
+2. H. Y. D. H. Y. W. A. K. Jain2, "Learning Face Age Progression: A Pyramid Architecture of GANs," 1 Jan 2018. 
+3. W. S. R. Liu, "Learning Residual Images for Face Attribute Manipulation," 12 Apr 2017. 
+4. T.-H. O. T. D. C. K. I. Mosseri, "Speech2Face: Learning the Face Behind a Voice," 23 May 2019. 
