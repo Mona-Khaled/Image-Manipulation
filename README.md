@@ -2,6 +2,7 @@
 Image synthesis has been a trending task for the AI community in recent years.
 Many works have shown the potential of Generative Adversarial Networks (GANs) 
 to deal with tasks such as text or audio to image synthesis.
+Conditional GAN is the selected GAN model for the voice to facial image conversion process, while CycleGAN is applied in age progression. 
 
 ## Conditional GAN Architecture
 ![conditional gan arch](https://user-images.githubusercontent.com/53131422/132605384-870fd71a-13c3-4cc6-91cb-308ad54884c5.jpg)
