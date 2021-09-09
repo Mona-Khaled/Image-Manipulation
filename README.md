@@ -1,4 +1,4 @@
-# Speech2Face
+# Image Manipulation
 Image synthesis has been a trending task for the AI community in recent years.
 Many works have shown the potential of Generative Adversarial Networks (GANs) 
 to deal with tasks such as text or audio to image synthesis.
