@@ -38,8 +38,7 @@ The dataset consists of over 20,000 face images with annotations of age, gender,
 The images cover large variation in pose, facial expression, illumination, occlusion, resolution,
 etc.
 ## Project Demo
-![image](https://user-images.githubusercontent.com/53131422/132793414-cb8879cc-7a2e-445c-9da9-be36c094533a.png)
-
+https://user-images.githubusercontent.com/53131422/132793534-105b7425-7779-41b2-b4ee-570ee19a5ac5.mp4
 ## Future Work
 * Enhance model performance by increasing accuracy, which can be achieved by collecting more data.  
 It allows the “data to tell for itself”, instead of relying on assumptions and weak correlations,                                                           
