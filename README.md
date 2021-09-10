@@ -17,17 +17,17 @@ Conditional GAN is the selected GAN model for the voice to facial image conversi
 * numpy
 * matplotlib
 ## Training Steps
-1- specify paths for domainA in aging_gan.yaml file  
-2- specify paths for domainB in aging_gan.yaml file
-3- initialize number of filters in first layer in aging_gan.yaml file 
-4-initialize number of epochs in aging_gan.yaml file 
-5- run main.py file
+1. specify paths for domainA in aging_gan.yaml file  
+2. specify paths for domainB in aging_gan.yaml file
+3. initialize number of filters in first layer in aging_gan.yaml file 
+4.initialize number of epochs in aging_gan.yaml file 
+5. run main.py file
 ## Testing Steps
-1- run gui.py file
-2- press Pick a Photo button
-3- Browse for image to be converted
-4- Click open
-5- Your converted image will be shown
+1. run gui.py file
+2. press Pick a Photo button
+3. Browse for image to be converted
+4. Click open
+5. Your converted image will be shown
 ## Dataset Description
 #### Speech2Face
 * Fbank: 149,354 voice recordings
