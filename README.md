@@ -37,8 +37,6 @@ Conditional GAN is the selected GAN model for the voice to facial image conversi
 The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity.
 The images cover large variation in pose, facial expression, illumination, occlusion, resolution,
 etc.
-## Project Demo
-https://user-images.githubusercontent.com/53131422/132793534-105b7425-7779-41b2-b4ee-570ee19a5ac5.mp4
 ## Future Work
 * Enhance model performance by increasing accuracy, which can be achieved by collecting more data.  
 It allows the “data to tell for itself”, instead of relying on assumptions and weak correlations,                                                           
