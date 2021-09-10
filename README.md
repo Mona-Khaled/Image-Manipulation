@@ -27,10 +27,11 @@ The dataset consists of over 20,000 face images with annotations of age, gender,
 The images cover large variation in pose, facial expression, illumination, occlusion, resolution,
 etc.
 ## Future Work
-* Enhance model performance by increasing accuracy, which can be achieved by collecting more data. It allows the “data to tell for itself,”  
-instead of relying on assumptions and weak correlations, Presence of more data results in better and accurate models.  
-* The ability to generate face images over different ages, for example: after 10 years or its multiples, and show the difference in signs of  
-aging among them with high accuracy and preserving the identity for each one of them.  
+* Enhance model performance by increasing accuracy, which can be achieved by collecting more data.  
+It allows the “data to tell for itself”, instead of relying on assumptions and weak correlations,  
+Presence of more data results in better and accurate models.  
+* The ability to generate face images over different ages, for example: after 10 years or its multiples,  
+and show the difference in signs of aging among them with high accuracy and preserving the identity for each one of them.  
                                                                       ![gif](https://user-images.githubusercontent.com/53131422/132791338-763e0d61-1494-4292-bc31-8757e9a29199.gif)
 ## References
 1. J.-Y. Z. T. Park∗, "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks," 24 Aug 2020. 
